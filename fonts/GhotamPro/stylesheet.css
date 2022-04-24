@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'GothamPro-Medium';
+    src: url('GothamPro-Medium.eot?') format('eot'),
+        url('GothamPro-Medium.otf') format('opentype'),
+        url('GothamPro-Medium.woff') format('woff'),
+        url('GothamPro-Medium.ttf') format('truetype'),
+        url('GothamPro-Medium.svg#GothamPro-Medium') format('svg');
+}
+
+
+@font-face {
+    font-family: 'GothamPro-Light';
+    src: url('GothamPro-Light.eot?') format('eot'),
+        url('GothamPro-Light.otf') format('opentype'),
+        url('GothamPro-Light.woff') format('woff'),
+        url('GothamPro-Light.ttf') format('truetype'),
+        url('GothamPro-Light.svg#GothamPro-Light') format('svg');
+}
+
+
+@font-face {
+    font-family: 'GothamPro-Bold';
+    src: url('GothamPro-Bold.eot?') format('eot'),
+        url('GothamPro-Bold.otf') format('opentype'),
+        url('GothamPro-Bold.woff') format('woff'),
+        url('GothamPro-Bold.ttf') format('truetype'),
+        url('GothamPro-Bold.svg#GothamPro-Bold') format('svg');
+}
+
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url('GothamPro.eot?') format('eot'),
+        url('GothamPro.otf') format('opentype'),
+        url('GothamPro.woff') format('woff'),
+        url('GothamPro.ttf') format('truetype'),
+        url('GothamPro.svg#GothamPro') format('svg');
+}

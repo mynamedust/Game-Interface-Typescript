@@ -1,1 +1,1 @@
-#Demonstration project on typescript
+#GTA5 Game Interface(Typescript)
