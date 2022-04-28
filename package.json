@@ -9,6 +9,7 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "homepage": "https://github.com/mynamedust/Game-Interface-Typescript",
   "dependencies": {
     "axios": "^0.26.0",
     "cross-env": "^7.0.3",
