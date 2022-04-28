@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  color: var(--black);
+  color: var(--white);
   background: url(../styles/back.png);
   font-family: 'GothamPro', sans-serif;
 }
@@ -12,21 +12,23 @@ a {
   text-decoration: none;
 }
 
+
+
+
+
 * {
   box-sizing: border-box;
 }
 
 :root {
-  --black: #3B434E;
-  --grey-light: #EBEBEB;
-  --grey-dark: #787D85;
-  --grey: #A4A4A4;
-  --white: white;
-  --primary: #7653FC;
-  --primary-hover: #4a26d8;
-  --red-light: #fea291;
-  --red: #FC836D;
-  --green: #1DC37E;
-  --green-light: #C8F8E4;
+  --white: #ffffff;
+  --white-light: rgba(210, 204, 242, 0.302);
+  --blue: #8096b7;
+  --violet-light: #866ea8;
+  --pink: #a524ff;
+  --gold: #ffd422;
+  --gold-light: #ffe26c;
+  --grey: #3b3a47;
+  --grey-dark: rgba(17, 19, 22, 0.502);
   --font-family: 'GothamPro', sans-serif;
 }
