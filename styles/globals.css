@@ -22,7 +22,7 @@ a {
 
 :root {
   --white: #ffffff;
-  --white-light: rgba(210, 204, 242, 0.302);
+  --white-light: rgba(210, 204, 242, 0.1);
   --blue: #8096b7;
   --violet-light: #866ea8;
   --pink: #a524ff;

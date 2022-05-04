@@ -1,0 +1,51 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px 0px;
+    padding: 35px 0px 35px 55px;
+}
+
+.infoBlock {
+    display: grid;
+    grid-template-columns: 45px auto;
+    grid-template-rows: 15px 23px 25px 43px;
+    gap: 7px 20px;
+    grid-template-areas:
+        "icon hidd"
+        "icon whit"
+        "icon yell"
+        "op op";
+}
+
+.hidden {
+    grid-area: hidd;
+    color: #8482a3;
+}
+
+.white {
+    grid-area: whit;
+}
+
+.yellow {
+    grid-area: yell;
+    color: var(--gold);
+}
+
+.open {
+    grid-area: op;
+}
+
+@media (max-width:1100px) {
+    .wrapper {
+        justify-self: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 800px;
+        height: max-content;
+        overflow: visible;
+        grid-template-rows: auto auto auto;
+        gap: 14px 0px;
+        padding: 35px;
+    }
+}

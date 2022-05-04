@@ -1,0 +1,5 @@
+.wrapper {
+    display: grid;
+    grid-template-rows: 155px 355px 305px;
+    gap: 30px 0;
+}

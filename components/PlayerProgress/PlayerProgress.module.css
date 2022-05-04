@@ -1,0 +1,29 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0 40px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 24px;
+}
+
+.name span {
+    width: min-content;
+    text-align: right;
+}
+
+.idAccount {
+    display: grid;
+    justify-content: flex-start;
+    align-content: center;
+    font-size: 24px;
+}
+
+.id, .account {
+    margin-right: 18px;
+    color: var(--violet-light);
+}

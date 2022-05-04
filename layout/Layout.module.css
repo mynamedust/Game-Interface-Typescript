@@ -1,54 +1,15 @@
 .wrapper {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto 1050px auto;
     grid-template-rows: 105px 1fr auto;
-    min-height: 100vh;
+    height: 100vh;
     grid-template-areas:
         "header header header"
         ". body ."
 }
 
-.header {
-    grid-area: header;
-    background-color: rgb(21, 24, 29);
-    opacity: 0.8;
-    display: grid;
-    padding: 0 86px;
-    grid-template-columns: auto auto auto;
-}
 
-
-.sidebar {
-    grid-area: sidebar;
-}
 
 .body {
     grid-area: body;
-
-}
-
-.footer {
-    grid-area: footer;
-}
-
-@media (max-width: 860px) {
-    .sidebar {
-        display: none !important;
-    }
-
-    .header {
-        display: block;
-    }
-
-    .wrapper {
-        grid-template-columns: minmax(320px, 1fr);
-        grid-template-areas:
-            "header"
-            "body"
-            "footer";
-    }
-
-    .body {
-        padding: 15px;
-    }
 }

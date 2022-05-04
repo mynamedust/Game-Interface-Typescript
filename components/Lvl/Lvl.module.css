@@ -1,0 +1,59 @@
+.lvlBlock {
+    display: grid;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.lvlCount {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.lvl {
+    font-size: 80px;
+    font-weight: bold;
+    color: var(--white-light);
+
+}
+
+.lvlNumber {
+    font-size: 48px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.xpNumberMin, .xpNumberMax {
+    color: #866ea8;
+    font-weight: bold;
+}
+
+
+
+.xpProgress {
+    min-width: 240px;
+    background: #332544;
+    height: 14px;
+    margin: 0 23px;
+
+}
+
+.xpProgressPink {
+    width: 50%;
+    height: 100%;
+    background: var(--pink);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.point {
+    position: absolute;
+    right: -43px;
+}
+
+.xp {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
