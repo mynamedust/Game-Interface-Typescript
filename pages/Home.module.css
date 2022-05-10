@@ -3,3 +3,21 @@
     grid-template-rows: 155px 355px 305px;
     gap: 30px 0;
 }
+
+.property {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 18px;
+    padding-bottom: 20px;
+}
+
+@media (max-width:1100px) {
+    .wrapper {
+        grid-template-rows: 155px 355px fit-content
+    }
+
+    .property {
+        margin-top: 93px;
+        grid-template-columns: 1fr;
+    }
+}

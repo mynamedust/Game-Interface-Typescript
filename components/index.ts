@@ -17,3 +17,5 @@ export * from './ReviewForm/ReviewForm';
 export * from './Lvl/Lvl';
 export * from './PlayerProgress/PlayerProgress';
 export * from './PlayerInfo/PlayerInfo';
+export * from './Cars/Cars';
+export * from './Houses/Houses';

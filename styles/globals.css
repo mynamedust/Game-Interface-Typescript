@@ -1,9 +1,12 @@
 html,
 body {
+  overflow: hidden;
   padding: 0;
   margin: 0;
   color: var(--white);
   background: url(../styles/back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: 'GothamPro', sans-serif;
 }
 
